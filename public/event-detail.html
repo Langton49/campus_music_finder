@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details - Campus Music Finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/event-detail.css">
+</head>
+<body>
+    <nav class="container">
+        <ul>
+            <li><strong>🎵 Campus Music Finder</strong></li>
+        </ul>
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div id="loading">Loading event details...</div>
+        <div id="event-detail" style="display: none;">
+
+        </div>
+        <div id="error" style="display: none;">
+            <h2>Event Not Found</h2>
+            <p>Sorry, we couldn't find the event you're looking for.</p>
+            <a href="/" role="button">Back to Events</a>
+        </div>
+    </main>
+
+    <script src="/js/event-detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.genre-tag {
+    display: inline-block;
+    background-color: var(--secondary);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius);
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.artists-list {
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.meta-icon {
+    font-size: 1.1rem;
+}
+
+.event-price {
+    background-color: var(--primary);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.event-price.free {
+    background-color: var(--secondary);
+}
+
+.info-section {
+    background-color: var(--card-background-color);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--card-border-color);
+}
+
+.info-section h3 {
+    margin-top: 0;
+    color: var(--primary);
+}
