@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [XX] The user can search for items by a specific attribute
+- [X] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
