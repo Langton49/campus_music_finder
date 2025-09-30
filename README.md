@@ -1,28 +1,24 @@
-# WEB103 Project 1 - *Campus Music Finder*
+# WEB103 Project 2 - *Campus Music Finder*
 
 Submitted by: **Munashe Mukweya**
 
 About this web app: **Campus Music Finder helps you find music events in and around your campus. Users can search and filter the events that they want to attend and click cards to view more information for each event.**
 
-Time spent: **4** hours
+Time spent: **2** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X] **The web app displays a title**
-- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [X] **The web app is styled using Picocss**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [X] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [XX] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
@@ -32,13 +28,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-No challenges for this project
+Had challenges creating the table for the website but eventually got the hang of it. Other than that, this project was simple enough.
 
 ## License
 
